@@ -8,14 +8,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <style>
-  #inpuut{
+  .input{
     float:left;
     width:500px;
     border-color: #a3c2c2;
     border-width: 0.5px;
     position: relative;
   }
-  #output{
+  .output{
     float:right;
     width:500px;
     
@@ -147,16 +147,16 @@
   <div class="title">Chat</div>
 </div>
 <div class="messages">
-{% for key,value in store.items() %}
-  <div class="alert alert-info" id="inpuut" role="alert">   
+{% for index, (key, value) in data %}
+  <div class="alert alert-info input" id="input{{index}}" role="alert">   
     User: {{ key }}
   </div>
-  <div class="alert alert-dark"  id="output" role="alert">
+  <div class="alert alert-dark output"  id="output{{index}}" role="alert">
     Robo: {{ value }}
   </div>
 {% endfor %}
 </div>
-<form  action="/process" method="POST">
+<form  action="/process#output{{last_index}}" method="POST">
   <div class="form-group">
     <div class="bottom_wrapper clearfix">
       <div class="message_input_wrapper">

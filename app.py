@@ -121,9 +121,8 @@ def chat(inp):
 app = Flask(__name__)
 Bootstrap(app)
 store={}
-@app.route('/home')
+@app.route('/')
 def home():
-    
     return render_template('index.html')
     
 @app.route('/process',methods = ['POST'])
@@ -133,8 +132,10 @@ def process():
     bot_response=chat(user_input)
     bot_response=str(bot_response)
     store.update({user_input:bot_response})
+    last_index = len(store) - 1
     print(store)
     print("Friend: "+bot_response)
-    return render_template('result.html',user_input=user_input,bot_response=bot_response,store=store)
+    
+    return render_template('result.html',user_input=user_input,bot_response=bot_response,store=store,data=enumerate(store.items()),last_index=last_index)
 if __name__=='__main__':
 	app.run(debug=True)
