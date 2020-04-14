@@ -1,0 +1,1439 @@
+{"intents": [
+{"tag": "greeting",
+ "patterns": ["Hi", "Good Morning", "Is anyone there?", "Hello", "Good day", "Whats up"],
+ "responses": ["Hello,Good to see you again!", "Hi there, how can I help?"],
+ "context_set": ""
+},
+{"tag": "health",
+ "patterns": ["How are you?", "How is your health?","Are you alright?"],
+ "responses": ["I'm good!","All is well!","I'm Fine!  "],
+ "context_set": ""
+},
+{"tag": "goodbye",
+ "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Bye!"],
+ "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+ "context_set": ""
+},
+{"tag": "thanks",
+ "patterns": ["Thanks", "Thank you", "That's helpful"],
+ "responses": ["Happy to help!", "Any time!", "My pleasure"]
+},
+{"tag": "age old",
+ "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+ "responses": ["That's secrete.", "I don't know!"],
+ "context_set": ""
+},
+{"tag": "name",
+ "patterns": ["what is your name", "what should I call you", "whats your name?"],
+ "responses": ["I'm Robo!"],
+ "context_set": ""
+},
+{"tag": "serenawillaims",
+ "patterns": ["how many times did Serena Williams play the French Open", "Who is Serena Williams","What sport does Serena Williams play"],
+ "responses": ["Serena Jameka Williams (born September 26, 1981) is an American professional tennis player currently ranked no. 1 in women's singles tennis.Williams has won four Olympic gold medals , one in women's singles and three in women's doubles."],
+ "context_set": ""
+},
+{"tag": "Kennedy",
+ "patterns": ["how did John F. Kennedy die?", "who is John F. Kennedy"],
+ "responses": ["John Fitzgerald 'Jack' Kennedy (May 29, 1917 Ã¢â‚¬â€œ November 22, 1963),was the 35th President of the United States , serving from 1961 until his death in 1963.Kennedy was assassinated on November 22, 1963 in Dallas , Texas."],
+ "context_set": ""
+},
+{"tag": "anne frank birth",
+ "patterns": ["Birthplace of Anne Frank?","When was Anne frank born?"],
+ "responses": ["Born in the city of Frankfurt am Main in Weimar Germany,she lived most of her life in or near Amsterdam , in the Netherlands. Born a German national, Frank lost her citizenship in 1941."],
+ "context_set": ""
+},
+{"tag": "anne frank life",
+ "patterns": ["About Anne frank?","Describe me about life of Anne Frank"],
+ "responses": ["Annelies 'Anne' Marie Frank (, ?, ; 12 June 1929early March 1945) is one of the most discussed Jewish victims of the Holocaust .","Her diary has been the basis for several plays and films.","She gained international fame posthumously after her diary was published.","It documents her experiences hiding during the German occupation of the Netherlands in World War II"],
+ "context_set": ""
+},
+{"tag": "jk rowling",
+ "patterns": ["Do you read books?", "Do you read jk rowling books?", "what do you know about Jk Rowling?"],
+ "responses": ["Joanne Rowling was born on 31 July 1965,pen name J. K. Rowling, is a British novelist","Yes,Jk Rowlings books"],
+ "context_set": ""
+},
+{"tag": "world trade centre",
+ "patterns": ["how old were the twin towers when destroyed?", "who destroyed twin tower?"],
+ "responses": ["The original World Trade Center featured landmark twin towers, which opened on April 4, 1973 and were destroyed in the September 11 attacks of 2001, along with 7 World Trade Center.The World Trade Center experienced a fire on , 1975, a bombing on , 1993 and a robbery on , 1998.","On the morning of September 11, 2001, Al-Qaeda -affiliated hijackers flew two Boeing 767 jets into the complex, one into each tower, in a coordinated terrorist attack.After burning for 56 minutes, the South Tower collapsed, followed a half-hour later by the North Tower, with the attacks on the World Trade Center resulting in 2,753 deaths."],
+ "context_set": ""
+},
+{"tag": "pearl harbour",
+ "patterns": ["when was pearl harbor bombed?","Pearl harbour bombing information"],
+ "responses": ["The attack on Pearl Harbor was a surprise military strike conducted by the Imperial Japanese Navy against the United States naval base at Pearl Harbor Hawaii on the morning of December 7,1941."],
+ "context_set": ""
+},
+{"tag": "first president",
+ "patterns": ["Who was the first president of india?"],
+ "responses": ["Rajendra Prasad[1950-1962]"],
+ "context_set": ""
+},
+{"tag": "first lady president",
+ "patterns": ["Who was the first lady president of india?"],
+ "responses": ["Pratibha Patil[2007-2012]"],
+ "context_set": ""
+},
+{"tag": "Chief minister maharashtra",
+ "patterns": ["Who is the chief minister of maharashtra?"],
+ "responses": ["Uddhav Thackeray"],
+ "context_set": ""
+},
+{"tag": "pi value",
+ "patterns": ["What is the value of pi?"],
+ "responses": ["3.14","22/7"],
+ "context_set": ""
+},
+{"tag": "president",
+ "patterns": ["Who is the president of India?","Current president of India"],
+ "responses": ["Ram Nath Kovind[2017]"],
+ "context_set": ""
+},
+{"tag": "invented telephone",
+ "patterns": ["Who invented telephone?"],
+ "responses": ["Alexander Graham Bell"],
+ "context_set": ""
+},
+ {"tag": "aeroplane",
+ "patterns": ["Who invented aeroplane?"],
+ "responses": ["The Wright Brothers"],
+ "context_set": ""
+},
+ {"tag": "invented computer",
+ "patterns": ["Who invented computer?"],
+ "responses": ["Charles Bebbage, british mathematician"],
+ "context_set": ""
+},
+ {"tag": "national animal",
+ "patterns": ["National animal of India?","Name the national animal of India"],
+ "responses": ["Bengal Tigers"],
+ "context_set": ""
+},
+ {"tag": "national flower",
+ "patterns": ["National Flower of india?","Name the national flower of India"],
+ "responses": ["Lotus"],
+ "context_set": ""
+},
+ {"tag": "father of nation",
+ "patterns": ["Who is the father of our nation?","When was Mahatma Gandhi assassinated?"],
+ "responses": ["Mahatma Karamchand Gandhi","1948"],
+ "context_set": ""
+},
+
+ {"tag": "hottest continent",
+ "patterns": ["Which is th hottest continent on Earth?"],
+ "responses": ["Africa"],
+ "context_set": ""
+},
+ {"tag": "national anthem",
+ "patterns": ["What is India's national anthem?","Who is the writer of national anthem?"],
+ "responses": ["Jana Gana Mana by Rabindranath Tagore"],
+ "context_set": ""
+},
+ {"tag": "UNO",
+ "patterns": ["Headquater of UNO?","UNO headquater is situated at?"],
+ "responses": ["New York,USA"],
+ "context_set": ""
+},
+ {"tag": "museum",
+ "patterns": ["Which is India's largest and the oldest museum?"],
+ "responses": ["Indian Museum, Kolkata"],
+ "context_set": ""
+},
+{"tag": "mineral",
+ "patterns": ["Which is the major mineral found in Punjab?"],
+ "responses": ["Salt"],
+ "context_set": ""
+},
+{"tag": "Assam",
+ "patterns": ["Which is post-harvest folk dance in Assam?"],
+ "responses": ["Bihu"],
+ "context_set": ""
+},
+{"tag": "asian games",
+ "patterns": ["Which country hosted the first asian games?"],
+ "responses": ["India"],
+ "context_set": ""
+},
+{"tag": "museum",
+ "patterns": ["Which is India's largest and the oldest museum?"],
+ "responses": ["Indian Museum, Kolkata"],
+ "context_set": ""
+},
+{"tag": "Kiran Bedi",
+ "patterns": ["Who is kiran bedi?"],
+ "responses": ["Kiran Bedi (born 9 June 1949) is  retired Indian Police Service officer, social activist, former tennis player and politician who is the current Lieutenant Governor of Puducherry. She is the first female Indian Police Service (IPS) officer and started her service in 1975.She remained in service for 35 years before taking voluntary retirement in 2007 as Director General of Police, Bureau of Police Research and Development."],
+ "context_set": ""
+},
+{"tag": "first women prime minister",
+ "patterns": ["Who is the first women prime minister of India?"],
+ "responses": ["Mrs. Indira Gandhi"],
+ "context_set": ""
+},
+{"tag": "first woman Chief Minister",
+ "patterns": ["Who is the first woman Chief Minister of a State?"],
+ "responses": ["Sucheta Kripalani"],
+ "context_set": ""
+},
+{"tag": "first woman Minister",
+ "patterns": ["Who is the first woman Minister?"],
+ "responses": ["Vijaya Laxmi Pandit"],
+ "context_set": ""
+},
+{"tag": "first woman Central Minister",
+ "patterns": ["Who is the first woman Central Minister of India? "],
+ "responses": ["Rajkumari Amrit Kaur"],
+ "context_set": ""
+},
+{"tag": "Speaker of Lok Sabha",
+ "patterns": ["Who is the first woman Speaker of Lok Sabha?"],
+ "responses": ["Shanno Devi"],
+ "context_set": ""
+},
+{"tag": "Governor of a State",
+ "patterns": ["Who is the first Governor of a State?"],
+ "responses": ["Sarojini Naidu"],
+ "context_set": ""
+},
+{"tag": "President of UN General Assembly",
+ "patterns": ["Who is the first Indian woman President of UN General Assembly?"],
+ "responses": ["Vijay Laxmi Pandit"],
+ "context_set": ""
+},
+{"tag": "President of Indian National Congress",
+ "patterns": ["Who is the first Indian woman President of Indian National Congress?"],
+ "responses": ["Annie Besant"],
+ "context_set": ""
+},
+{"tag": "Muslim woman throne on Delhi",
+ "patterns": ["Who is the first Muslim woman to sit on the throne on Delhi?"],
+ "responses": ["Rajia Sultana"],
+ "context_set": ""
+},
+{"tag": "swim across the English Channel",
+ "patterns": ["Who is the first woman to swim across the English Channel?"],
+ "responses": ["Arti Shah"],
+ "context_set": ""
+},
+{"tag": "Mount Everest",
+ "patterns": ["Who is the first woman climb Mount Everest?"],
+ "responses": ["Bachhendri Pal"],
+ "context_set": ""
+},
+{"tag": "circumnavigate",
+ "patterns": ["Who is the first woman to circumnavigate (Sail around the world)?"],
+ "responses": ["Ujwala Rai"],
+ "context_set": ""
+},
+{"tag": "IAS",
+ "patterns": ["Who is the first woman IAS Officer?"],
+ "responses": ["Anna George Malhotra"],
+ "context_set": ""
+},
+{"tag": "IPS",
+ "patterns": ["Who is the first woman IPS Officer?"],
+ "responses": ["Kiran Bedi"],
+ "context_set": ""
+},
+{"tag": "Advocate",
+ "patterns": ["Who is the first woman Advocate?"],
+ "responses": ["Cornelia Sarabjit"],
+ "context_set": ""
+},
+{"tag": "Judge",
+ "patterns": ["Who is the first woman Judge?"],
+ "responses": ["Anna Chandi"],
+ "context_set": ""
+},
+{"tag": "Judge of High Court",
+ "patterns": ["Who is the first woman Judge of High Court?"],
+ "responses": ["Anna Chandi"],
+ "context_set": ""
+},
+{"tag": "Judge of Supreme Court",
+ "patterns": ["Who is the first woman Judge of Supreme Court?"],
+ "responses": ["Lela Seth"],
+ "context_set": ""
+},
+{"tag": "Chief Justice of a High Court",
+ "patterns": ["Who is first woman Chief Justice of a High Court?"],
+ "responses": ["Lela Seth"],
+ "context_set": ""
+},
+{"tag": "physician",
+ "patterns": ["Who is first woman physician?"],
+ "responses": ["Kadambini Ganguli"],
+ "context_set": ""
+},
+{"tag": "MA",
+ "patterns": ["Who is the first woman to pass MA?"],
+ "responses": ["Chandra Mukhi Bose"],
+ "context_set": ""
+},
+{"tag": "Chief Engineer",
+ "patterns": ["Who is the first woman Chief Engineer?"],
+ "responses": ["P.K. Theresia"],
+ "context_set": ""
+},
+{"tag": "editor of English newspaper",
+ "patterns": ["Who is the first woman editor of English newspaper?"],
+ "responses": ["Dina Vakil"],
+ "context_set": ""
+},
+{"tag": "Sena Madel",
+ "patterns": ["Who is the first woman to receive a Sena Madel?"],
+ "responses": ["Constable Bimla Devi"],
+ "context_set": ""
+},
+{"tag": "youngest to climb Mount Everest",
+ "patterns": ["Who is the youngest woman to climb Mount Everest?"],
+ "responses": ["Dicky Dolma"],
+ "context_set": ""
+},
+{"tag": "Mount Everest two times",
+ "patterns": ["Who is the first woman to climb Mount Everest two times?"],
+ "responses": ["Santosh Yadav"],
+ "context_set": ""
+},
+{"tag": "Lady Magistrate",
+ "patterns": ["Who is the first Lady Magistrate?"],
+ "responses": ["Omana Kunjamma"],
+ "context_set": ""
+},
+{"tag": "Nobel Prize",
+ "patterns": ["Who is the first woman to win Nobel Prize?"],
+ "responses": ["Mother Teresa"],
+ "context_set": ""
+},
+{"tag": "Miss India",
+ "patterns": ["Who is the first crowned Miss India?"],
+ "responses": ["Pramila (Esther Victoria Abraham), from Calcutta"],
+ "context_set": ""
+},
+{"tag": "Miss Universe",
+ "patterns": ["Who is the first crowned Miss Universe?"],
+ "responses": ["Sushmita Sen"],
+ "context_set": ""
+},
+{"tag": "Union Cabinet post",
+ "patterns": ["Who is the first Woman to hold a Union Cabinet post?"],
+ "responses": ["Vijaya Lakshmi Pandit"],
+ "context_set": ""
+},
+{"tag": "Union Foreign Minister",
+ "patterns": ["Who is the first Woman to hold a Union Foreign Minister's post?"],
+ "responses": ["Sushma Swaraj(2014)"],
+ "context_set": ""
+},
+{"tag": "youngest minister of a state",
+ "patterns": ["Who is the first youngest Woman minister of a state?"],
+ "responses": ["Sushma Swaraj (She became the cabinet minister of Haryana when she was only 25 yrs old)"],
+ "context_set": ""
+},
+{"tag": "governor of Independent India",
+ "patterns": ["Who is the first Woman governor of Independent India?"],
+ "responses": ["Sarojini Naidu, in charge of United Provinces"],
+ "context_set": ""
+},
+{"tag": "UN General Assembly",
+ "patterns": ["Who is the first Woman president of UN General Assembly?"],
+ "responses": ["Vijaya Lakshmi Pandit (1953)"],
+ "context_set": ""
+},
+{"tag": "Booker Prize",
+ "patterns": ["Who is the first Indian Woman to win Booker Prize?"],
+ "responses": ["Arundhati Roy (1997)"],
+ "context_set": ""
+},
+{"tag": "first Woman Speaker of Lok Sabha",
+ "patterns": ["Who is the first Woman Speaker of Lok Sabha?"],
+ "responses": ["Meira Kumar (2009)"],
+ "context_set": ""
+},
+{"tag": "president",
+ "patterns": ["Who is the first Woman president of India?"],
+ "responses": ["Pratibha Patil(2007)"],
+ "context_set": ""
+},
+{"tag": "Miss World",
+ "patterns": ["Who is the first Indian Woman to become Miss World?"],
+ "responses": ["Rita Faria"],
+ "context_set": ""
+},
+{"tag": "judge in Supreme Court",
+ "patterns": ["Who is the first Woman judge in Supreme Court?"],
+ "responses": ["Mrs. Meera Sahib Fatima Bibi"],
+ "context_set": ""
+},
+{"tag": "Ambassador",
+ "patterns": ["Who is the first Woman Ambassador?"],
+ "responses": ["Miss C. B. Muthamma"],
+ "context_set": ""
+},
+{"tag": "Indian National Congress",
+ "patterns": ["Who is the first Woman President of the Indian National Congress?"],
+ "responses": ["Mrs. Annie Besant"],
+ "context_set": ""
+},
+{"tag": "Chief Minister of an Indian State",
+ "patterns": ["Who is the first Woman Chief Minister of an Indian State?"],
+ "responses": ["Mrs. Sucheta Kripalani"],
+ "context_set": ""
+},
+{"tag": "chairman of Union Public Service Commission",
+ "patterns": ["Who is the first Woman chairman of Union Public Service Commission?"],
+ "responses": ["Roze Millian Bethew"],
+ "context_set": ""
+},
+{"tag": "Director General of Police (DGP)",
+ "patterns": ["Who is the first Woman Director General of Police (DGP)?"],
+ "responses": ["Kanchan Chaudhary Bhattacharya"],
+ "context_set": ""
+},
+{"tag": "Lieutenant General",
+ "patterns": ["Who is the first Woman Lieutenant General?"],
+ "responses": ["Puneeta Arora"],
+ "context_set": ""
+},
+{"tag": "Air Vice Marshal",
+ "patterns": ["Who is the first Woman Air Vice Marshal?"],
+ "responses": ["P. Bandopadhyay"],
+ "context_set": ""
+},
+{"tag": "chairperson of Indian Airlines",
+ "patterns": ["Who is the first Woman chairperson of Indian Airlines?"],
+ "responses": ["Sushama Chawala"],
+ "context_set": ""
+},
+{"tag": "Muslim ruler of Delhi",
+ "patterns": ["Who is the first & the last Muslim Woman ruler of Delhi?"],
+ "responses": ["Razia Sultana"],
+ "context_set": ""
+},
+{"tag": "Ashoka Chakra",
+ "patterns": ["Who is the first Woman to receive Ashoka Chakra?"],
+ "responses": ["Niraja Bhanot"],
+ "context_set": ""
+},
+
+{"tag": "Bharat Ratna",
+ "patterns": ["Who is the first Woman to receive Bharat Ratna?"],
+ "responses": ["Indira Gandhi"],
+ "context_set": ""
+},
+{"tag": "Gyanpith Award",
+ "patterns": ["Who is the first Woman to receive Gyanpith Award?"],
+ "responses": ["Ashapurna Devi"],
+ "context_set": ""
+},
+{"tag": "Headmistress in school",
+ "patterns": ["Who is the first Woman Headmistress in school?"],
+ "responses": ["Savitribai Phule"],
+ "context_set": ""
+},
+{"tag": "reached Antarctica",
+ "patterns": ["Who is the first Indian woman who reached Antarctica?"],
+ "responses": ["Mahel Musa"],
+ "context_set": ""
+},
+{"tag": "International Olympic Committee",
+ "patterns": ["Who is the first Indian woman who become an individual member of International Olympic Committee?"],
+ "responses": ["Nita Ambani (2016)"],
+ "context_set": ""
+},
+{"tag": "seven continental peaks",
+ "patterns": ["Who is the first Indian woman mountaineer to scale the seven continental peaks?"],
+ "responses": ["Premlata Agrawal"],
+ "context_set": ""
+},
+{"tag": "amputee to scale Everest",
+ "patterns": ["Who is the first woman amputee to scale Everest?"],
+ "responses": ["Arunima Sinha"],
+ "context_set": ""
+},
+{"tag": "twins conquer Mount Everest",
+ "patterns": ["Who is the first twins ever to conquer Mount Everest?"],
+ "responses": ["Tashi and Nancy Malik"],
+ "context_set": ""
+},
+{"tag": "woman scientist in London's Royal Society",
+ "patterns": ["Who is the first Indian woman scientist selected as fellow in London's Royal Society?"],
+ "responses": ["Gagandeep Kang"],
+ "context_set": ""
+},
+{"tag": "women defense Minister",
+ "patterns": ["Who is the first women defense Minister of India?"],
+ "responses": ["Smt. Nirmala Sitharaman"],
+ "context_set": ""
+},
+{"tag": "woman Finance Minister",
+ "patterns": ["Who is the first woman Finance Minister of India?"],
+ "responses": ["Smt. Nirmala Sitharaman"],
+ "context_set": ""
+},
+{"tag": "Chief Minister of Delhi",
+ "patterns": ["Who is the first woman Chief Minister of Delhi?"],
+ "responses": ["Smt. Sushma Swaraj"],
+ "context_set": ""
+},
+{"tag": "Visually Impaired Women IAS Officer",
+ "patterns": ["Who is the first Visually Impaired Women IAS Officer?"],
+ "responses": ["Pranjal Patil"],
+ "context_set": ""
+},
+{"tag": "DIG in Indian Coast Guard",
+ "patterns": ["Who is the first woman DIG in Indian Coast Guard?"],
+ "responses": ["Nupur Kulshrestha"],
+ "context_set": ""
+},
+{"tag": "Women On Board 2020",
+ "patterns": ["What is the rank of India in world as per study titled 'Women On Board 2020'?"],
+ "responses": ["12"],
+ "context_set": ""
+},
+{"tag": "fly an aircraft",
+ "patterns": ["Who was was the first Indian woman to fly an aircraft?"],
+ "responses": ["Sarla Thakral"],
+ "context_set": ""
+},
+{"tag": "Photojournalist",
+ "patterns": ["Who was the First Photojournalist in India?"],
+ "responses": ["Homai Vyarawalla"],
+ "context_set": ""
+},
+{"tag": "First Female actress",
+ "patterns": ["Who was the First Female actress in India?"],
+ "responses": ["Durgabai Kamat"],
+ "context_set": ""
+},
+{"tag": "Judge appointed to the Supreme Court of India",
+ "patterns": ["Who was the first female judge who was appointed to the Supreme Court of India?"],
+ "responses": ["Fathima Beevi"],
+ "context_set": ""
+},
+{"tag": "commercial pilot",
+ "patterns": ["Who was the first pilot of Indian Airlines in 1956 and the first Indian woman commercial pilot?"],
+ "responses": ["Durba Banerjee"],
+ "context_set": ""
+},
+{"tag": "cadet in Indian Army",
+ "patterns": ["Who was the firts lady cadet in Indian Army?"],
+ "responses": ["Priya Jhingan"],
+ "context_set": ""
+},
+{"tag": "Musician to get Bharat Ratna",
+ "patterns": ["Who is the First Woman Musician to get Bharat Ratna?"],
+ "responses": ["MS Subbalakshmi"],
+ "context_set": ""
+},
+{"tag": "go to space",
+ "patterns": ["Who is the First Indian Woman to go to space?"],
+ "responses": ["Kalpana Chawla"],
+ "context_set": ""
+},
+{"tag": "Booker Prize",
+ "patterns": ["Who is the First Indian Woman to Booker Prize?"],
+ "responses": ["Arundhati Roy"],
+ "context_set": ""
+},
+{"tag": "President of INC",
+ "patterns": ["Who is the First Indian Woman President of INC?"],
+ "responses": ["Annie Besant"],
+ "context_set": ""
+},
+{"tag": "Gold in Asian Games",
+ "patterns": ["Who is the First Indian Woman to win Gold in Asian Games?"],
+ "responses": ["Kamaljeet Sandhu"],
+ "context_set": ""
+},
+{"tag": "WTA Title",
+ "patterns": ["Who is the First Indian Woman to win WTA(Women's Tennis Association) Title?"],
+ "responses": ["Sania Mirza"],
+ "context_set": ""
+},
+{"tag": "Jnanpith Award",
+ "patterns": ["Who is the First Indian Woman to get Jnanpith Award?"],
+ "responses": ["Ashapurna Devi"],
+ "context_set": ""
+},
+{"tag": "Woman Ambassador at UN",
+ "patterns": ["Who is the First Indian Woman Ambassador at UN?"],
+ "responses": ["Vijalakshmi Pandit"],
+ "context_set": ""
+},
+{"tag": "Union Minister",
+ "patterns": ["Who is the First Woman Union Minister?"],
+ "responses": ["Rajkumari Amrita Kaur"],
+ "context_set": ""
+},
+{"tag": "WHO",
+ "patterns": ["By what name has coronavirus been officially called by WHO?"],
+ "responses": ["CoVID-19"],
+ "context_set": ""
+},
+{"tag": "long form of CoVID",
+ "patterns": ["What is the long form of CoVID?"],
+ "responses": ["Corona Virus Infected Disease"],
+ "context_set": ""
+},
+{"tag": "first country to shut financial markets",
+ "patterns": ["Which country has become the first country to shut financial markets in response to the widening coronavirus?"],
+ "responses": ["Philippines"],
+ "context_set": ""
+},
+{"tag": "launched a tracker for COVID-19",
+ "patterns": ["Which company has launched a tracker for COVID-19 worldwide?"],
+ "responses": ["Microsoft"],
+ "context_set": ""
+},
+{"tag": "Essential commodities by GoI",
+ "patterns": ["Which of the following items has been declared as Essential commodities by GoI(Government of India)?"],
+ "responses": ["Masks and Sanitizers"],
+ "context_set": ""
+},
+{"tag": "ordered poultry culling",
+ "patterns": ["Which is the first state Government who has ordered poultry culling due to coronavirus?"],
+ "responses": ["Kerala"],
+ "context_set": ""
+},
+{"tag": "first to apply Epidemic Diseases, COVID-19 Regulations, 2020",
+ "patterns": ["Which state has become the first to apply Epidemic Diseases, COVID-19 Regulations, 2020?"],
+ "responses": ["Karnataka"],
+ "context_set": ""
+},
+{"tag": "campaign called Break The Chain",
+ "patterns": ["Which state government has launched a mass handwashing campaign called 'Break The Chain'?"],
+ "responses": ["Kerala"],
+ "context_set": ""
+},
+{"tag": "CoVID-19 emergency fund",
+ "patterns": ["What amount has been proposed for CoVID-19 emergency fund?"],
+ "responses": ["$10 million"],
+ "context_set": ""
+},
+{"tag": "Coronavirus",
+ "patterns": ["What is Coronavirus?"],
+ "responses": ["Coronaviruses are a large family of viruses and belong to the Nidovirus family or Nidovirales order, which includes Coronaviridae, Arteriviridae, and Roniviridae families."],
+ "context_set": ""
+},
+{"tag": "first case of coronavirus",
+ "patterns": ["Where was the first case of coronavirus identified?"],
+ "responses": ["Wuhan, Hubei Province, China"],
+ "context_set": ""
+},
+{"tag": "diseases related to coronavirus",
+ "patterns": ["Which diseases are related to coronavirus?"],
+ "responses": ["Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV)"],
+ "context_set": ""
+},
+{"tag": "mild Symptoms of coronavirus",
+ "patterns": ["What are mild Symptoms of coronavirus?"],
+ "responses": ["Fever, Cough, Shortness of breadth"],
+ "context_set": ""
+},
+{"tag": "hosted Cricket World Cup 2019?",
+ "patterns": ["Which country hosted Cricket World Cup 2019?"],
+ "responses": ["England"],
+ "context_set": ""
+},
+{"tag": "Naidu cup",
+ "patterns": ["Naidu cup belongs to which game?"],
+ "responses": ["Chess"],
+ "context_set": ""
+},
+{"tag": "Hook pass terminology",
+ "patterns": ["Hook pass terminology belongs to which sports? "],
+ "responses": ["Basketball"],
+ "context_set": ""
+},
+{"tag": "distance of a marathon run",
+ "patterns": ["The distance of a marathon run is?"],
+ "responses": ["26 miles 385 yards"],
+ "context_set": ""
+},
+{"tag": "Hockey is the national sport",
+ "patterns": ["Hockey is the national sports of? "],
+ "responses": ["India and Pakistan"],
+ "context_set": ""
+},
+{"tag": "Eden Gardens stadium",
+ "patterns": ["Eden Gardens cricket stadium as in?"],
+ "responses": ["Calcutta"],
+ "context_set": ""
+},
+{"tag": "players in Kho Kho",
+ "patterns": ["Number of players in one team of Kho Kho are?"],
+ "responses": ["9"],
+ "context_set": ""
+},
+{"tag": "Somdev Devburman retirement",
+ "patterns": ["Somdev Devburman, who has recently announce retirement belongs to which game/sports?"],
+ "responses": ["Lawn Tennis"],
+ "context_set": ""
+},
+{"tag": "Indian boys under 19 final at British Junior Open Squash Tournament",
+ "patterns": ["Who has won the first ever all Indian boys under 19 final at British Junior Open Squash Tournament?"],
+ "responses": ["Velavan Senthilkumar"],
+ "context_set": ""
+},
+{"tag": "Magnus Carlsen distinguished chess player",
+ "patterns": ["Magnus Carlsen, the distinguished chess player belongs to which country?"],
+ "responses": ["Norway"],
+ "context_set": ""
+},
+{"tag": "Qatar Open Tennis Championship 2017",
+ "patterns": ["Who has won Men’s Single Title of Qatar Open Tennis Championship 2017?"],
+ "responses": ["Novak Djokovic from Siberia defeating Andy Murray"],
+ "context_set": ""
+},
+{"tag": "Chinese E-Commerce firm",
+ "patterns": ["Which Chinese E-Commerce firm has become top sponsor of Olympic Games through 2028?"],
+ "responses": ["Alibaba group"],
+ "context_set": ""
+},
+{"tag": "inaugural best FIFA football awards 2016 in Zurich",
+ "patterns": ["Who has been named the world’s best player at the inaugural best FIFA football awards 2016 in Zurich Switzerland?"],
+ "responses": ["Cristino Ronaldo"],
+ "context_set": ""
+},
+{"tag": "best playmaker in the world for 2016",
+ "patterns": ["Which football player has been voted as the best playmaker in the world for 2016?"],
+ "responses": ["Lionel Messi"],
+ "context_set": ""
+},
+{"tag": "National Sport of China",
+ "patterns": ["National Sport of China is?"],
+ "responses": ["Table Tennis"],
+ "context_set": ""
+},
+{"tag": "Canada Cup",
+ "patterns": ["Canada Cup belongs to which sport?"],
+ "responses": ["Golf"],
+ "context_set": ""
+},
+{"tag": "Westchester",
+ "patterns": ["Westchester Cup belongs to?"],
+ "responses": ["Polo"],
+ "context_set": ""
+},
+ {"tag": "Chetan Sharma",
+ "patterns": ["Chetan Sharma was the first player to take a World Cup hat-trick against which team?"],
+ "responses": ["New Zealand"],
+ "context_set": ""
+},
+{"tag": "won the world cup twice",
+ "patterns": ["During 1975 to 1999 how many countries won the world cup twice"],
+ "responses": ["2","West Indies (1975 and 1979) and Australia (1987 and 1999) have won the World Cup twice."],
+ "context_set": ""
+},
+{"tag": "Mozart Of Table Tennis",
+ "patterns": ["Who Is Known As “the Mozart Of Table Tennis?"],
+ "responses": ["Jan - Ove Waldner of Sweden."],
+ "context_set": ""
+},
+{"tag": "table tennis racket",
+ "patterns": ["Slang for table tennis racket"],
+ "responses": ["Paddle"],
+ "context_set": ""
+},
+{"tag": "rally in table tennis.",
+ "patterns": [" What is rally in table tennis."],
+ "responses": ["The period during which the ball is in play is termed as a rally in table tennis."],
+ "context_set": ""
+},
+{"tag": "server in Table Tennis",
+ "patterns": ["Who Is Called The ‘server’ In Table Tennis?"],
+ "responses": ["The player who first strikes the ball during a rally is called the server."],
+ "context_set": ""
+},
+{"tag": "Indian Test Cricket Player And Davis Cup Player",
+ "patterns": ["Name the Indian Test Cricket Player And Davis Cup Player who was also a Table Tennis Player Of Repute? "],
+ "responses": ["Ram swami"],
+ "context_set": ""
+},
+{"tag": "trophy to winners of Women’s Team Championship",
+ "patterns": ["What Trophy Is Awarded To Winners Of The Women’s Team Championship In World Table Tennis?"],
+ "responses": ["Corbillon cup"],
+ "context_set": ""
+},
+{"tag": "Weight Of A Table Tennis Ball",
+ "patterns": ["What Is The Weight Of A Table Tennis Ball?"],
+ "responses": ["37 to 39 grams"],
+ "context_set": ""
+},
+{"tag": "Divides The Playing Surface",
+ "patterns": ["What Divides The Playing Surface Of The Table Tennis?"],
+ "responses": ["The net running parallel to the each end line."],
+ "context_set": ""
+},
+{"tag": "International Table Tennis Federation",
+ "patterns": ["When Was The International Table Tennis Federation (ittf) Formed?"],
+ "responses": ["In 1926."],
+ "context_set": ""
+},
+{"tag": "Height Of The Table Tennis Net",
+ "patterns": ["What Is The Height Of The Table Tennis Net?"],
+ "responses": ["6 inches"],
+ "context_set": ""
+},
+{"tag": "Specifications of Table Tennis Ball",
+ "patterns": ["What Are The Specifications For A Table Tennis Ball?"],
+ "responses": ["ball should be of celluloid, white in colour, spherical in shape, with a weight of 2.7 gm, 40mm diameter."],
+ "context_set": ""
+},
+{"tag": "Table Tennis in Asian Games",
+ "patterns": ["When Was Table Tennis Included In The Asian Games?"],
+ "responses": ["In 1958 at Tokyo"],
+ "context_set": ""
+},
+{"tag": "Ping - Pong Game",
+ "patterns": ["What Is The Modern Name Of Ping - Pong Game?"],
+ "responses": ["Table Tennis"],
+ "context_set": ""
+},
+{"tag": "kick acceptable in butterfly stroke",
+ "patterns": ["What kick is acceptable when swimming the butterfly stroke?"],
+ "responses": ["Dolphin Kick"],
+ "context_set": ""
+},
+{"tag": "swim on their back",
+ "patterns": ["Which stroke/s requires swimmers to swim on their back?"],
+ "responses": ["Backstroke"],
+ "context_set": ""
+},
+{"tag": "dive done when in the water headfirst",
+ "patterns": ["What is the name of the dive done when in the water headfirst?"],
+ "responses": ["Surface Dive"],
+ "context_set": ""
+},
+{"tag": "universal stroke in swimming",
+ "patterns": ["Which of the four strokes is considered the universal stroke, and is also the fastest?"],
+ "responses": ["Freestyle"],
+ "context_set": ""
+},
+{"tag": "different strokes",
+ "patterns": ["How many different strokes can be swum?"],
+ "responses": ["4","Butterfly, Backstroke, Breaststroke, Freestyle"],
+ "context_set": ""
+},
+{"tag": "life of mother teresa",
+ "patterns": ["Describe life of mother teresa ?"],
+ "responses": ["mother teresa was catholic Nun who dedicated her life carinhg for the destitute and dying in the slums of Calcutta."],
+ "context_set": ""
+},
+{"tag": "Mother Teresa  founded",
+ "patterns": ["what did  Mother Teresa  founded ?"],
+ "responses": ["Mother Teresa founded the MISSIONARIES OF CHARITY , To look after abondoned babies and to help the poorest of the poor"],
+ "context_set": ""
+},
+{"tag": "Mother Teresa recieved the Nobel Peace Price",
+ "patterns": ["In which year Mother Teresa recieved the Nobel Peace Price"],
+ "responses": ["1979"],
+ "context_set": ""
+},
+{"tag": "mother teresa born",
+ "patterns": ["when was mother teresa born?"],
+ "responses": ["mother teresa was born on 26th August 1910 , at kosovo vilayet, Ottoman Empire"],
+ "context_set": ""
+},
+{"tag": "mother teresa arrive in India",
+ "patterns": ["When did MOTHER TERESA arrive in India"],
+ "responses": ["Mother Teresa arrived India in the year 1929 and began her novitiate in Darjeeling , in lower himalayas"],
+ "context_set": ""
+},
+{"tag": "missions operated by Teresa",
+ "patterns": ["By 1996 how much missions were operated by Teresa"],
+ "responses": ["By 1996 teresa operated 517 missions in over 100 countries."],
+ "context_set": ""
+},
+{"tag": "teresa's health decline",
+ "patterns": ["How did mother teresa's health decline?"],
+ "responses": ["Teresa had heart attack in Rome in 1938 .following a second attack in 1989 and later in 1991 she faced problem of pneumonia in mexico."],
+ "context_set": ""
+},
+{"tag": "title is given to mother teresa",
+ "patterns": ["what title is given to mother teresa? "],
+ "responses": ["mother teresa was titled as SUPERIOR GENERAL"],
+ "context_set": ""
+},
+{"tag": "Savitribai Phule",
+ "patterns": ["who was Savitribai Phule ?"],
+ "responses": ["Savitribai Phule was an Indian social reformer , educationalist , and poet of Maharashtra .She is regarded as first female teacher of India."],
+ "context_set": ""
+},
+{"tag": "role of savitribai phule ",
+ "patterns": ["In which field savitribai phule played an important role "],
+ "responses": ["savitribai phule played an important role in improving women's right in India "],
+ "context_set": ""
+},
+{"tag": "savitribai phule born",
+ "patterns": ["when was savitribai phule born?"],
+ "responses": ["she was born on 3 Jan 1831 at Naigaon in Satara district"],
+ "context_set": ""
+},
+{"tag": "savitribai work",
+ "patterns": ["what work of  savitribai influenced the society"],
+ "responses": ["savitribai Phule worked to abolish the discrimination and unfair treatment of people based on caste and gender, this  work influenced society."],
+ "context_set": ""
+},
+{"tag": "savitribai started teaching first",
+ "patterns": ["where did savitribai started teaching first?"],
+ "responses": ["savitribai phule started teaching at the Maharwada in Pune"],
+ "context_set": ""
+},
+{"tag": "savitribai raised awareness",
+ "patterns": ["how did savitribai raised awareness for issues of womens's right ?"],
+ "responses": ["by establishing mahila seva mandal."],
+ "context_set": ""
+},
+{"tag": "savitribai strongly opposed",
+ "patterns": ["what did savitribai strongly opposed"],
+ "responses": ["savitribai strongly opposed sati pratha"],
+ "context_set": ""
+},
+{"tag": "savitribai died",
+ "patterns": ["when did savitribai died"],
+ "responses": ["savitribai phule died in year 1897 on 10th march at pune."],
+ "context_set": ""
+},
+{"tag": "Mary Kom ",
+ "patterns": ["Why Mary Kom got fame?"],
+ "responses": ["she is the only women to become world ameteur boxing champion for a record of 6 times."],
+ "context_set": ""
+},
+{"tag": "title given to Mary kom",
+ "patterns": ["What title was given to Mary kom by Manipur government?"],
+ "responses": ["Government Of Manipur conferred gave her the title 'Meethoi leima' which means great or exceptionanl lady."],
+ "context_set": ""
+},
+{"tag": "recognition of Mary kom?",
+ "patterns": ["write about awards and recognition of Mary kom?"],
+ "responses": ["she won Padma Bhushan ,Padma Vibhushan ,Rajiv  Gandhi Khel Ratna Award,Padma Shri, Arjuna Award, other recognition are AIBA , CNNIBN REAL HEROES AWARD & LIMCA BOOK OF RECORD"],
+ "context_set": ""
+},
+{"tag": "Kalpana chawla",
+ "patterns": ["Who was Kalpana chawla?"],
+ "responses": ["kalpana chawla was an Astronaut engineer , and the first woman of Indian origin to go to space.'"],
+ "context_set": ""
+},
+{"tag": " kalpana chawla fasination",
+ "patterns": ["As a child what fascinated kalpana chawla ?"],
+ "responses": ["as a child she was fascinated by aeroplanes"],
+ "context_set": ""
+},
+{"tag": "NASA Ames Research Center",
+ "patterns": ["when did kalpana chawla started working in NASA Ames Research Center?"],
+ "responses": ["she started working in NASA in the year 1988 where she did CFD On (V/STOL) Concepts."],
+ "context_set": ""
+},
+{"tag": "kalpana chawla second flight",
+ "patterns": ["when was kalpana chawla selected for her second flight?"],
+ "responses": ["IN 2001 kalpana was selected for her second flight."],
+ "context_set": ""
+},
+{"tag": "P V Sindhu",
+ "patterns": ["Who is P V Sindhu ?"],
+ "responses": ["Pusarla Venkata  Sindhu is an Indian badminton player.she was born on 5 july 1995 at Hyderabad."],
+ "context_set": ""
+},
+{"tag": "P V Sindhu fame",
+ "patterns": ["why P V Sindhu got fame ?"],
+ "responses": ["because she is the first Indian to become World Badminton Champion"],
+ "context_set": ""
+},
+{"tag": "P V Sindhu win",
+ "patterns": ["how much matches did P V Sindhu win?"],
+ "responses": ["she won 326 mataches."],
+ "context_set": ""
+},
+{"tag": "Sarojini Naidu",
+ "patterns": ["Life of Sarojini Naidu"],
+ "responses": ["Sarojini naidu is a political activist and a poet,born in bengali family on 13 February 1879 in Hyderabad,in 1925 Sarojini Naidu was appointed as a president of Indian national congress."],
+ "context_set": ""
+},
+{"tag": "Indian Independence Movement",
+ "patterns": ["when did sarojini Naidu joined Indian Independence Movement"],
+ "responses": ["in the year 1905 sarojini naidu joined Indian independence movement in the wake of partition of bengal"],
+ "context_set": ""
+},
+{"tag": "title given to Sarojini Naidu",
+ "patterns": ["what title was given to Sarojini Naidu?"],
+ "responses": ["Sarojini naidu was given the title the Nightangle of India."],
+ "context_set": ""
+},
+{"tag": "awarded sarojini naidu",
+ "patterns": ["why did british government awarded sarojini naidu?"],
+ "responses": ["Sarojini Naidu was awarded the Kaisar-i-hind medal for her work during the Plague epidemic in India."],
+ "context_set": ""
+},
+{"tag": "Lata Mangeshkar",
+ "patterns": ["when did Lata Mangeshkar recieved Dadasaheb Phalke award?"],
+ "responses": ["In the year 1989 Lata Mangeshkar stowed award by the government of India."],
+ "context_set": ""
+},
+{"tag": "P T USHA",
+ "patterns": ["who is P T USHA?"],
+ "responses": ["Pilavullakandi thekkeparambil Usha is a retired Indian track and field athlete.P T Usha is titled asthe queen of indian track"],
+ "context_set": ""
+},
+{"tag": "Horse racing's Melbourne Cup",
+ "patterns": ["Horse racing's Melbourne Cup is held in what month?"],
+ "responses": ["November"],
+ "context_set": ""
+},
+{"tag": "mascot for 2010 FIFA World Cup",
+ "patterns": ["What type of cat was the official mascot for the 2010 FIFA World Cup?"],
+ "responses": ["Leopard"],
+ "context_set": ""
+},
+{"tag": " won the 2011 FA Cup",
+ "patterns": ["Which English football team won the 2011 FA Cup?"],
+ "responses": ["Manchester City"],
+ "context_set": ""
+},
+{"tag": "countries jointly hosted the 2002 FIFA World Cup",
+ "patterns": ["Which two countries jointly hosted the 2002 FIFA World Cup?"],
+ "responses": ["South Korea and Japan"],
+ "context_set": ""
+},
+{"tag": "football’s European Championship final twice",
+ "patterns": ["Which was the first country to stage football’s European Championship final twice?"],
+ "responses": ["Italy"],
+ "context_set": ""
+},
+{"tag": "host the 2014 FIFA World Cup",
+ "patterns": ["Which country hosted the 2014 FIFA World Cup?"],
+ "responses": ["Brazil"],
+ "context_set": ""
+},
+{"tag": "youngest footballer to play in a World Cup",
+ "patterns": ["In 1958, who became the youngest footballer, at age 17, to play in a World Cup?"],
+ "responses": ["Pele"],
+ "context_set": ""
+},
+{"tag": "heighest speed racing sport",
+ "patterns": ["What racing sport achieves the highest speeds?"],
+ "responses": ["Airplane racing"],
+ "context_set": ""
+},
+{"tag": "equipment recreational bikes have",
+ "patterns": ["What piece of equipment do recreational bikes have that racing bikes do not?"],
+ "responses": ["Brakes"],
+ "context_set": ""
+},
+{"tag": "supporters of London football club",
+ "patterns": ["‘Gooners’ are supporters of which London football club?"],
+ "responses": ["Arsenal"],
+ "context_set": ""
+},
+{"tag": "British football club",
+ "patterns": ["Which was the first British football club to win the European Cup?"],
+ "responses": ["Celtic FC"],
+ "context_set": ""
+},
+{"tag": "motto of Everton F.C",
+ "patterns": ["What is the motto of English Premier League football club ,Everton F.C?"],
+ "responses": ["‘Nil Satis Nisi Optimum’ is the motto"],
+ "context_set": ""
+},
+{"tag": "FIFA Award for Most Entertaining Team in 2006",
+ "patterns": ["Which country won the FIFA Award for Most Entertaining Team at the 2006 World Cup?"],
+ "responses": ["Portugal"],
+ "context_set": ""
+},
+{"tag": "UEFA",
+ "patterns": ["In sport, what does UEFA stand for?"],
+ "responses": ["Union of European Football Associations"],
+ "context_set": ""
+},
+{"tag": "English football club Sheffield Wednesday",
+ "patterns": ["What is the nickname of English football club Sheffield Wednesday?"],
+ "responses": ["The Owls"],
+ "context_set": ""
+},
+{"tag": "marie curie",
+ "patterns": ["What is marie curie discover"],
+ "responses": ["She development of the theory of radioactivity,techniques for isolating radioactive isotopes, and discovered two elements, polonium and radium."],
+ "context_set": ""
+},
+{"tag": "first African American female astronaut",
+ "patterns": [" Name the first African American female astronaut"],
+ "responses": ["Dr. Mae Jemison"],
+ "context_set": ""
+},
+{"tag": "Helen Keller",
+ "patterns": ["Life of Helen Keller"],
+ "responses": ["A childhood disease left her deaf, mute, and blind. Helen Keller became an expert author and lecturer, educating nationally on behalf of others with similar disabilities."],
+ "context_set": ""
+},
+{"tag": "head of Business Intelligence Team at Uber",
+ "patterns": ["name the person who heads the Business Intelligence Team at Uber and is the world’s most influential female software engineers"],
+ "responses": ["Komal Mangtani"],
+ "context_set": ""
+},
+        {"tag": "captain of Indian women’s cricket team: ",
+         "patterns": ["name the captain of Indian women’s cricket team"],
+         "responses": [" Mithali Dorai Raj"],
+         "context_set": ""
+        },
+{"tag": "Badminton World rankings in 2015",
+         "patterns": ["Name the first Indian woman and the second Indian player to secure number 1 position in Badminton World rankings in 2015"],
+         "responses": ["Saina Nehwal"],
+         "context_set": ""
+        },
+        {"tag": "First female doctor",
+         "patterns": [" First female doctor in India and the first Indian woman to obtain a medical degree in the United States?"],
+         "responses": ["Anandi Gopal Joshi"],
+         "context_set": ""
+        },
+        {"tag": "first female scientist in India",
+         "patterns": ["Name the first female scientist in India; conducted research in organic chemistry and medicinal plants"],
+         "responses": ["Asima Chatterjee"],
+         "context_set": ""
+        },
+        {"tag": "Ghulam Ahmed Trophy",
+         "patterns": ["Ghulam Ahmed Trophy belongs to which sports?"],
+         "responses": ["Cricket"],
+         "context_set": ""
+        },
+        {"tag": "team of Water Polo",
+         "patterns": ["How many players are there in one team of Water Polo?"],
+         "responses": ["6 players"],
+         "context_set": ""
+        },
+        {"tag": "First Asian Games",
+         "patterns": ["First Asian Games held in which nation?"],
+         "responses": ["New Delhi,India(1951)"],
+         "context_set": ""
+        },
+        {"tag": "Barcelona open was lifted by",
+         "patterns": ["Barcelona open was lifted by?"],
+         "responses": ["Rafael Nadal from Spain beating Dominic thiem Australia"],
+         "context_set": ""
+        },
+        {"tag": "Russian Grand Prix",
+         "patterns": ["Russian Grand Prix was recently won by?"],
+         "responses": ["Valtteri Bottas"],
+         "context_set": ""
+        },
+        {"tag": "26th edition of Sultan Azlan Shah Cup Hockey tournament",
+         "patterns": ["Which country won 26th edition of Sultan Azlan Shah Cup Hockey tournament?"],
+         "responses": ["Great Britain defeating Australia"],
+         "context_set": ""
+        },
+        {"tag": "Indian players Chef Thapa",
+         "patterns": ["Indian players Chef Thapa belongs to which Sports?"],
+         "responses": ["Boxing"],
+         "context_set": ""
+        },
+        {"tag": "record of highest wicket taker in women’s one-day international",
+         "patterns": ["Which player has recently made the record of highest wicket taker in women’s one-day international?"],
+         "responses": ["Jhulan Goswami; 181 wickets in 153 matches"],
+         "context_set": ""
+        },
+        {"tag": "World para-athletics Grand Prix",
+         "patterns": ["World para-athletics Grand Prix recently conducted in which nation?"],
+         "responses": ["China"],
+         "context_set": ""
+        },
+        {"tag": "7th Junior National Hockey championship 2017 women",
+         "patterns": ["Which team won 7th Junior National Hockey championship 2017 women?"],
+         "responses": ["Hockey Him (Himachal) defeating hockey Mizoram"],
+         "context_set": ""
+        },
+        {"tag": "The mascot of22nd Asian Athletic Championship",
+         "patterns": ["The mascot of22nd Asian Athletic Championship is?"],
+         "responses": ["Olly Turtle"],
+         "context_set": ""
+        },
+        {"tag": "Spanish Grand Prix Formula 1 Championship",
+         "patterns": ["Spanish Grand Prix Formula 1 Championship is recently won by?"],
+         "responses": ["Lewis Hamilton"],
+         "context_set": ""
+        },
+        {"tag": "Italian Open Women’s Single Title 2017",
+         "patterns": ["Who has won Italian Open Women’s Single Title 2017?"],
+         "responses": ["Elina Svitolina of Ukraine"],
+         "context_set": ""
+        },
+        {"tag": "10th edition of IPL",
+         "patterns": ["Which team has won 10th edition of IPL?"],
+         "responses": ["Mumbai Indians defeating rising Pune supergiant"],
+         "context_set": ""
+        },
+        {"tag": "football club won Europa League title",
+         "patterns": ["Which football club won Europa League title?"],
+         "responses": ["Manchester United defeating Ajax Amsterdam"],
+         "context_set": ""
+        },
+        {"tag": "Sudirman cup",
+         "patterns": ["Sudirman cup belongs to which sports?"],
+         "responses": ["Badminton"],
+         "context_set": ""
+        },
+        {"tag": "champion at National Youth Athletic Meet",
+         "patterns": ["Which state became the champion at National Youth Athletic Meet?"],
+         "responses": ["Haryana defeating Kerala"],
+         "context_set": ""
+        },
+        {"tag": "First Commonwealth games held in 1930",
+         "patterns": ["First Commonwealth games held in 1930 at?"],
+         "responses": ["Hamilton, Canada"],
+         "context_set": ""
+        },
+        {"tag": "Jaspal Singh Rana",
+         "patterns": ["Jaspal Singh Rana is a distinguished athlete of which game?"],
+         "responses": ["Shooting"],
+         "context_set": ""
+        },
+        {"tag": "India first took part in Olympics game",
+         "patterns": ["India first took part in Olympics game in year?"],
+         "responses": ["1920"],
+         "context_set": ""
+        },
+        {"tag": "scoring a Cannon",
+         "patterns": ["Which game uses the term scoring a Cannon?"],
+         "responses": ["Billiards"],
+         "context_set": ""
+        },
+        {"tag": "Ashes term",
+         "patterns": ["Ashes is a term used in which Sports?"],
+         "responses": ["Cricket"],
+         "context_set": ""
+        },
+        {"tag": "Davis Cup",
+         "patterns": ["Davis Cup belongs to which sports?"],
+         "responses": ["Tennis"],
+         "context_set": ""
+        },
+        {"tag": "Queensberry rules",
+         "patterns": ["Queensberry rules belongs to which Sports?"],
+         "responses": ["Boxing"],
+         "context_set": ""
+        },
+        {"tag": "Mecca of Indian football",
+         "patterns": ["Which place is known as Mecca of Indian football?"],
+         "responses": ["Kolkata"],
+         "context_set": ""
+        },
+        {"tag": "players on each side in a baseball",
+         "patterns": ["Number of players on each side in a baseball match as?"],
+         "responses": ["5"],
+         "context_set": ""
+        },
+        {"tag": "T20 World Cup For Blind Tournament 2017",
+         "patterns": ["Which team has won T20 World Cup For Blind Tournament 2017?"],
+         "responses": ["India defeating Pakistan"],
+         "context_set": ""
+        },
+        {"tag": "Pandit Deen Dayal Upadhyay all India National Style Kabaddi Championship",
+         "patterns": ["Which team has won first edition of 3 day Pandit Deen Dayal Upadhyay all India National Style Kabaddi Championship?"],
+         "responses": ["Haryana beating Railways"],
+         "context_set": ""
+        },
+        {"tag": "Indian in New Zealand Grand prix at Chris Amon circuit",
+         "patterns": ["Which Indian player has become first to play in the New Zealand Grand prix at Chris Amon circuit in Mansfield New zealand?"],
+         "responses": ["Jehan Daruvala"],
+         "context_set": ""
+        },
+        {"tag": "score double century in 4 consecutive test series",
+         "patterns": ["Which Indian cricketer has become first player to score double century in 4 consecutive test series?"],
+         "responses": ["Virat Kohli"],
+         "context_set": ""
+        },
+        {"tag": "barred from 2017 summer world athletics championship in London",
+         "patterns": ["Which country has been barred from 2017 summer world athletics championship in London?"],
+         "responses": ["Russia"],
+         "context_set": ""
+        },
+        {"tag": "gold medal at Asian Junior Squash Championship 2017",
+         "patterns": ["Which country won gold medal at Asian Junior Squash Championship 2017?"],
+         "responses": ["India defeating Malaysia"],
+         "context_set": ""
+        },
+        {"tag": "first to score 10000 runs in T20",
+         "patterns": ["The batsman who has recently become the first to score 10000 runs in T20 is?"],
+         "responses": ["Chris Gayle of West Indies"],
+         "context_set": ""
+        },
+        {"tag": "Monte Carlo Masters men’s singles for record 10th time",
+         "patterns": ["Who has won Monte Carlo Masters men’s singles for record 10th time?"],
+         "responses": ["Rafael Nadal of Spain"],
+         "context_set": ""
+        },
+        {"tag": "ICC T20 International team",
+         "patterns": ["Which team has been ranked first in ICC T20 International team ranking?"],
+         "responses": ["New Zealand"],
+         "context_set": ""
+        },
+        {"tag": "Rahul Dravid house playing maximum balls in test",
+         "patterns": ["Which Indian batsman has the record of Rahul Dravid house playing maximum balls in test?"],
+         "responses": ["Cheteshwar Pujara, 525 balls 202 runs"],
+         "context_set": ""
+        },
+        {"tag": "lifted Vijay Hazare Trophy",
+         "patterns": ["Which team recently lifted Vijay Hazare Trophy?"],
+         "responses": ["Tamil Nadu defeating Bengal"],
+         "context_set": ""
+        },
+        {"tag": "country’s first ever transgender one day Athletic Meet",
+         "patterns": ["Which state conducted country’s first ever transgender one day Athletic Meet?"],
+         "responses": ["Kerala"],
+         "context_set": ""
+        },
+        {"tag": "Syed Mushtaq Ali T20 title",
+         "patterns": ["Which zone has recently won Syed Mushtaq Ali T20 title?"],
+         "responses": ["East zone defeating West zone"],
+         "context_set": ""
+        },
+        {"tag": "expensive player in IPL auction 2017",
+         "patterns": ["Which player emerged as most expensive player in IPL auction 2017?"],
+         "responses": ["Ben Stokes of England; 14.5 crore"],
+         "context_set": ""
+        },
+        {"tag": "costliest player of India in IPL 2017",
+         "patterns": ["Which Indian player became the costliest player of India in IPL 2017?"],
+         "responses": ["Karn Sharma"],
+         "context_set": ""
+        },
+        {"tag": "mascot of FIFA under 17 World Cup",
+         "patterns": ["The official mascot of FIFA under 17 World Cup scheduled to be held in India is?"],
+         "responses": ["Kheleo clouded leopard"],
+         "context_set": ""
+        },
+        {"tag": "Fifth Hockey India League title 2017",
+         "patterns": ["Fifth Hockey India League title 2017 is won by?"],
+         "responses": ["Kalinga Lancers beating Dabang Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Syed Modi International Grand pix gold Women’s Single Title 2017",
+         "patterns": ["The winner of Syed Modi International Grand pix gold Women’s Single Title 2017 is?"],
+         "responses": ["PV Sindhu"],
+         "context_set": ""
+        },
+        {"tag": "Australian open men’s singles 2017",
+         "patterns": ["Who has won Australian open men’s singles 2017?"],
+         "responses": ["Rodger Federer defeating Rafael Nadals"],
+         "context_set": ""
+        },
+        {"tag": "2017 Malaysia Masters Grand Prix Gold",
+         "patterns": ["Who has won 2017 Malaysia Masters Grand Prix Gold Women’s Single Title?"],
+         "responses": ["Saina Nehwal defeating Sibu of Malaysia"],
+         "context_set": ""
+        },
+        {"tag": "fastest batsman in the world to score 1000 runs as captain in one-day internationals",
+         "patterns": ["Recently which Indian batsman has become the fastest batsman in the world to score 1000 runs as captain in one-day internationals?"],
+         "responses": ["Virat Kohli"],
+         "context_set": ""
+        },
+        {"tag": "Cooch Behar trophy",
+         "patterns": ["Cooch Behar trophy is related to?"],
+         "responses": ["Cricket"],
+         "context_set": ""
+        },
+        {"tag": "pro wrestling League season 2",
+         "patterns": ["Which team come up as the winner of pro wrestling League season 2?"],
+         "responses": ["Punjab Royals defeating Haryana Hammers"],
+         "context_set": ""
+        },
+        {"tag": "premier badminton league season 2",
+         "patterns": ["Which team won premier badminton league season 2 title?"],
+         "responses": ["Chennai Smashers defeating Mumbai Rockets"],
+         "context_set": ""
+        },
+        {"tag": "Ranji Trophy in January 2017",
+         "patterns": ["Which team won Ranji Trophy in January 2017?"],
+         "responses": ["Gujarat defeating Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Swiss open 2017 Badminton Championship",
+         "patterns": ["Who has recently won Swiss open 2017 Badminton Championship?"],
+         "responses": ["Lin Dan of China"],
+         "context_set": ""
+        },
+        {"tag": "Single Title of Indian open 2017 Badminton Championship",
+         "patterns": ["Who won Women’s Single Title of Indian open 2017 Badminton Championship?"],
+         "responses": ["P V Sindhu"],
+         "context_set": ""
+        },
+        {"tag": "Special Olympics world winter",
+         "patterns": ["Special Olympics world winter games recently held in which country?"],
+         "responses": ["Australia"],
+         "context_set": ""
+        },
+        {"tag": "Snooker Championship Singapore",
+         "patterns": ["Who won silver in Women World Snooker Championship held in Singapore"],
+         "responses": ["Vidya Pillai"],
+         "context_set": ""
+        },
+         {"tag": "Santosh Trophy for 32nd time",
+         "patterns": ["Which team lifted Santosh Trophy for 32nd time?"],
+         "responses": ["Bengal"],
+         "context_set": ""
+        },
+         {"tag": "Miami open men’s singles 2017",
+         "patterns": ["Who has won Miami open men’s singles 2017?"],
+         "responses": ["Rodger Federer of Switzerland dividing Rafael Nadal of Spain"],
+         "context_set": ""
+        },
+        {"tag": "World Cup double trap gold ISSF Shotgun",
+         "patterns": ["The winner of World Cup double trap gold ISSF Shotgun?"],
+         "responses": ["Ankur Mittal"],
+         "context_set": ""
+        },
+        {"tag": "Australian Grand Prix 2017",
+         "patterns": ["Who has won Australian Grand Prix 2017?"],
+         "responses": ["Sebastian Vettel Germany defeating Levis Hamilton of UK"],
+         "context_set": ""
+        },
+        {"tag": "I league",
+         "patterns": ["Which team has recently won I league?"],
+         "responses": ["Aizawl FC defeating Shillong Lajong"],
+         "context_set": ""
+        },
+        {"tag": "Pankaj Advani",
+         "patterns": ["Pankaj Advani belongs to which sports?"],
+         "responses": ["Billairds"],
+         "context_set": ""
+        },
+        {"tag": "Australian Open women’s singles title 2017",
+         "patterns": ["Who has won Australian Open women’s singles title 2017?"],
+         "responses": ["Serena Williams defeating Venus Williams"],
+         "context_set": ""
+        },
+        {"tag": "Jamaican cricketer banned",
+         "patterns": ["Which Jamaican cricketer has been banned from all cricket over doping charges?"],
+         "responses": ["Andre Russell"],
+         "context_set": ""
+        },
+        {"tag": "T20 batsman list in the latest ICC rankings",
+         "patterns": ["Who has top the T20 batsman list in the latest ICC rankings?"],
+         "responses": ["Virat Kohli"],
+         "context_set": ""
+        },
+        {"tag": "3 hundred in T20 match in an unofficial game in Delhi",
+         "patterns": ["Who has become the first batsman to score 3 hundred in T20 match in an unofficial game locally played in Delhi?"],
+         "responses": ["Mohit Ahlawat"],
+         "context_set": ""
+        },
+        {"tag": "29 Indian National Snooker Championship",
+         "patterns": ["Who has won 29 Indian National Snooker Championship title?"],
+         "responses": ["Pankaj Advani"],
+         "context_set": ""
+        },
+        {"tag": "Army Polo Championship 2017",
+         "patterns": ["Which Indian Unit has won Army Polo Championship 2017?"],
+         "responses": ["Cavalry defeating Army services Corps"],
+         "context_set": ""
+        },
+        {"tag": "India’s former legendary all-rounder Kapil Dev",
+         "patterns": ["Which Indian cricketer has surpassed India’s former legendary all-rounder Kapil Dev becoming the highest wicket taker in home Test season?"],
+         "responses": ["R Ashwin"],
+         "context_set": ""
+        },
+        {"tag": "29 Indian National Snooker Championship",
+         "patterns": ["Who has won 29 Indian National Snooker Championship title?"],
+         "responses": ["Pankaj Advani"],
+         "context_set": ""
+        }
+   ]
+}

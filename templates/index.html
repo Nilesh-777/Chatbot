@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friend Chatbot</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+  #inpuut{
+    float:left;
+    width:500px;
+    border-color: #a3c2c2;
+    border-width: 0.5px;
+    position: relative;
+  }
+  #output{
+    float:right;
+    width:500px;
+    
+    position:relative;
+  }
+  .container{
+    width:60%;
+  }
+  .jumbotron{
+    margin-top: 20px;
+    height:570px;
+  }
+  .top_menu {
+          background-color: #fff;
+          width: 100%;
+          padding: 20px 0 15px;
+          box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+          
+        }
+        .top_menu .buttons {
+          margin: 3px 0 0 20px;
+          position: absolute;
+        }
+        .top_menu .buttons .button {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          display: inline-block;
+          margin-right: 7px;
+          position: relative;
+        }
+        .top_menu .buttons .button.close {
+          background-color: #f5886e;
+        }
+        .top_menu .buttons .button.minimize {
+          background-color: #fdbf68;
+        }
+        .top_menu .buttons .button.maximize {
+          background-color: #a3d063;
+        }
+        .top_menu .title {
+          text-align: center;
+          color: #bcbdc0;
+          font-size: 20px;
+ }
+ .messages {
+          position: relative;
+          list-style: none;
+          padding: 20px 10px 0 10px;
+          margin: 0;
+          height: 347px;
+          overflow: scroll;
+          
+  }
+ .chat_window {
+          position: absolute;
+          width: 60%
+          max-width: 800px;
+          height: 500px;
+          border-radius: 10px;
+          background-color: #fff;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+          background-color: #f8f8f8;
+          overflow: hidden;
+  }
+  .bottom_wrapper {
+          position: relative;
+          width: 100%;
+          background-color: #fff;
+          padding: 20px 20px;
+          position: absolute;
+          bottom: 0;
+  }
+  .bottom_wrapper .message_input_wrapper {
+          display: inline-block;
+          height: 50px;
+          border-radius: 25px;
+          border: 1px solid #bcbdc0;
+          width: calc(100% - 160px);
+          position: relative;
+          padding: 0 20px;
+ }
+        .bottom_wrapper .message_input_wrapper .message_input{
+          border: none;
+          height: 100%;
+          box-sizing: border-box;
+          width: calc(100% - 40px);
+          position: absolute;
+          outline-width: 0;
+          color: gray;
+  }
+  .bottom_wrapper .send_message {
+          width: 140px;
+          height: 50px;
+          display: inline-block;
+          border-radius: 50px;
+          background-color: white;
+          
+          color: #fff;
+          cursor: pointer;
+          transition: all 0.2s linear;
+          text-align: center;
+          float: right;
+          
+ }
+ #submt{
+ width: 140px;
+ height: 50px;
+ border-radius: 50px;
+ background-color: #a3d063;
+ border-color: white;
+ border-width: 0.5px;
+ }
+</style>
+<body>
+
+<div class="container">
+<div class="jumbotron"> 
+<div class="chat_window">
+<div class="top_menu">
+  <div class="buttons">
+    <div class="button close"></div>
+    <div class="button minimize"></div>
+    <div class="button maximize"></div>
+  </div>
+  <div class="title">Chat</div>
+</div>
+<div class="messages">
+
+  <div class="alert alert-info" id="inpuut" role="alert">   
+    User: 
+  </div>
+  <div class="alert alert-dark"  id="output" role="alert">
+    Robo: 
+  </div>
+
+</div>
+<form  action="/process" method="POST">
+  <div class="form-group">
+    <div class="bottom_wrapper clearfix">
+      <div class="message_input_wrapper">
+        <input class="message_input"  name="user_input" type="text"placeholder="Type your message here..." />
+      </div>
+   <!-- <input type="text" name="user_input" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Talk to my friend"><br>-->
+     <div class="send_message">
+      <button type="submit" class="btn btn-success" id="submt">Send</button>
+     </div>
+    </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
