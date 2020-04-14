@@ -13,10 +13,10 @@ pip install numpy
 pip install tflearn
 pip install tensorflow
 
-#Actiavate virtual environment
+# Actiavate virtual environment
 virtualenv --system-site-packages -p python ./venv
 .\venv\Scripts\activate
 
-#Check installation of tensorflow
+# Check installation of tensorflow
 pip install --upgrade tensorflow
 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
